@@ -1,0 +1,14 @@
+{
+    "layer": "overlay",
+    "position": "top",
+    "height": 24,
+    "modules-left": [],
+    "modules-center": [],
+    "modules-right": ["custom/test", "custom/battery"],
+    "custom/battery": {
+        "exec": "/usr/local/bin/waybar_battery.sh",
+        "interval": 10,
+        "return-type": "plain",
+        "tooltip": false
+    }
+}

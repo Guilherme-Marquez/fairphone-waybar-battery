@@ -1,0 +1,12 @@
+[Unit]
+Description=Waybar Custom Battery Overlay
+After=graphical.target
+
+[Service]
+ExecStart=/usr/bin/waybar
+Restart=always
+Environment=WAYBAR_CONFIG=$HOME/.config/waybar/config
+Environment=WAYBAR_STYLE=$HOME/.config/waybar/style.css
+
+[Install]
+WantedBy=default.target

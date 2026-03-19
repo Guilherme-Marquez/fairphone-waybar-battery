@@ -1,0 +1,14 @@
+/* Transparent bar */
+window#waybar {
+    background: rgba(0,0,0,0);
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Battery module */
+#custom-battery {
+    padding: 0 6px;
+    color: #ffffff;
+    background: rgba(0,0,0,0);
+}
